@@ -5,5 +5,7 @@
   {{journalEntry.content}}
   <br>
   {{journalEntry.date | date}}
+  <a [routerLink]="[journalEntry._id]">Go to entry</a>
   <hr>
+  
 </div>
