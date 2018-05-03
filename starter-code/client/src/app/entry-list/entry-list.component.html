@@ -1,0 +1,9 @@
+<h1> JOURNAL ENTRIES </h1>
+<div *ngFor="let journalEntry of journalEntries">
+  {{journalEntry.title}}
+  <br>
+  {{journalEntry.content}}
+  <br>
+  {{journalEntry.date | date}}
+  <hr>
+</div>
