@@ -6,9 +6,10 @@ import { HttpModule } from "@angular/http";
 import { AppComponent } from "./app.component";
 import { EntryListComponent } from "./entry-list/entry-list.component";
 import { JournalRouterRoutes } from "./journal-router.routing";
+import { SingleEntryComponent } from "./single-entry/single-entry.component";
 
 @NgModule({
-  declarations: [AppComponent, EntryListComponent],
+  declarations: [AppComponent, EntryListComponent, SingleEntryComponent],
   imports: [BrowserModule, FormsModule, HttpModule, JournalRouterRoutes],
   providers: [],
   bootstrap: [AppComponent]
